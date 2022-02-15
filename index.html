@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- <header>Windson Nascimento</header> -->
+  <main class="container">
+    <section id="portfolio">
+      <h2 class="sr-only">Portfolio</h2>
+      <div class="cardProfile">
+        <img src="./assets/perfil/IMG_20210506_205437_011.jpg" alt="Foto de Perfil" />
+        <a href="#" onclick="Modal.open()" class="button new">
+          <h3>Windson Nascimento</h3>
+        </a>
+
+        <p>Dev Jr.</p>
+      </div>
+      <div class="cardLinks">
+        <ul>
+          <li>
+            <img src="./assets/map-pin.svg" alt="" />
+            <p>Brasil</p>
+          </li>
+          <li>
+            <img src="./assets/briefcase.svg" alt="" />
+            <p>3Tecnos Tecnologia</p>
+          </li>
+          <li>
+            <img src="./assets/github.svg" alt="" />
+            <p>windson_</p>
+          </li>
+          <li>
+            <img src="./assets/linkedin.svg" alt="" />
+            <p>windson-nascimento</p>
+          </li>
+          <li>
+            <img src="./assets/twitter.svg" alt="" />
+            <p>windson_</p>
+          </li>
+          <li>
+            <img src="./assets/globe.svg" alt="" />
+            <p>Em construção</p>
+          </li>
+          <li>
+            <img src="./assets/mail.svg" alt="" />
+            <p>windson.dev@gmail.com</p>
+          </li>
+        </ul>
+      </div>
+      <div class="cardTechnologies">
+        <h2>Tecnologias</h2>
+        <table id="data-table">
+          <thead>
+            <tr>
+              <th>Html</th>
+              <th>CSS</th>
+              <th>JavaScript</th>
+            </tr>
+            <tr>
+              <th>ReactJS</th>
+              <th>C#</th>
+              <th>SQL Server</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div class="cardProjects">
+        <h2>Meus Projetos</h2>
+        <p>Veja todos</p>
+      </div>
+      <div class="cardProjectsDisplay">
+        <img src="./assets/folder.svg" alt="" />
+        <p>DevFinances</p>
+        <p>Aplicação de finanças desenvolvida na semana da Maratona Discover disponibilizada pela Rocketseat.</p>
+        <img src="./assets/star.svg" alt="">
+        <p>100</p>
+        <img src="./assets/git-branch.svg" alt="">
+        <p>100</p>
+      </div>
+      </div>
+      <div class="cardProjectsDisplay2">
+        <img src="./assets/folder.svg" alt="" />
+        <p>beautysalon.</p>
+        <p>Projeto criado durante a Next Level Week #6 da Rocketseat.</p>
+        <img src="./assets/star.svg" alt="">
+        <p>100</p>
+        <img src="./assets/git-branch.svg" alt="">
+        <p>100</p>
+      </div>
+      <div class="cardExperiences">
+        <h2>Experiências</h2>
+        <ul>
+          <li>
+            <h3>3Tecnos Tecnologia</h3>
+            <p>2019 - Atualmente</p>
+            <p>Software Developer Jr.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="cardEducation">
+        <h2>Educação</h2>
+        <ul>
+          <li>
+            <h3>Fanese</h3>
+            <p>2019 - 2021</p>
+            <p>Redes de Computadores</p>
+          </li>
+          <li>
+            <h3>Estácio</h3>
+            <p>2021 - 2022</p>
+            <p>Engenharia de Software</p>
+          </li>
+          <li>
+            <h3>Rocketseat</h3>
+            <p>2021 - 2022</p>
+            <p>Ignite Pro</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <div class="modal-overlay">
+    <div class="modal">
+      <div class="form">
+        <h2>Sobre mim</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+          electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+          Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum.</p>
+        <form action="">
+          <div class="input-group actions">
+            <a onclick="Modal.close()" href="#" class="button cancel">X</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="heart">
+      <p>Feito com</p>
+      <img src="./assets/heart.svg" alt="">
+      <p></p>por Windson</p>
+    </div>
+    <div class="toggle">
+      <p>Alterar tema: </p>
+      <input id="switch" type="checkbox" name="theme">
+      <label for="switch">Toggle</label>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
